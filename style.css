@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Allura|Josefin+Sans&display=swap');
+body {
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+*{
+    box-sizing: border-box;
+    font-family: 'Josefina-sans', sans-serif;
+}
+
+nav{
+    display: flex;
+    position: absolute;
+    background-color: #fff;
+    width: 100%;
+}
+
+.nav--logo{
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-left: 45px;
+}
+
+.nav--logo #nav--logo--text1{
+    line-height: 0;
+    color: #cc0000;
+}
+
+.nav--logo #nav--logo--text2{
+    line-height: 0;
+    font-size: 16pt;
+    color: #cc0000;
+}
+
+.nav--link{
+    list-style-type: none;
+    margin-top: 40px;
+    display: flex;
+}
+
+.nav--link--item{
+    margin-right: 20px;
+    color: #000;
+    font-weight:600;
+    font-size: 11pt;
+}
+
+.nav--link--nav{
+    text-decoration: none;
+    color: #000;
+}
+
+.nav--link--nav:hover, .nav--icon--symbol:hover{
+    color:#cc0000;
+}
+
+.nav--icon{
+    position: absolute;
+    right: 80px;
+}
+
+.nav--icon--symbol{
+    color:#000;
+    margin-top: 40px;
+    margin-right: 25px;
+}
+
+#banner--home--image{
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 70px;
+}
+
+#banner--home--image img{
+    max-width: 100%;
+    height: auto;
+}
+
